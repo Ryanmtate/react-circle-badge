@@ -17,5 +17,5 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 _reactDom2.default.render(_react2.default.createElement(
   'div',
   null,
-  _react2.default.createElement(_Badge2.default, { fill: "#234567", name: "Ryan Tate" })
+  _react2.default.createElement(_Badge2.default, { width: "100%", fill: "#234567", name: "Ryan Tate" })
 ), document.getElementById('app'));

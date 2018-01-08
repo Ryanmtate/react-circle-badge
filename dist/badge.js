@@ -36,7 +36,10 @@ var Badge = function (_Component) {
           height = _props.height,
           style = _props.style,
           opacity = _props.opacity,
-          name = _props.name;
+          name = _props.name,
+          x = _props.x,
+          y = _props.y,
+          fontSize = _props.fontSize;
 
 
       var initials = name.split(" ").map(function (w) {
@@ -47,6 +50,9 @@ var Badge = function (_Component) {
       width = width ? width : '100%';
       height = height ? height : '100%';
       style = style ? style : null;
+      x = x ? x : "175";
+      y = y ? y : "215";
+      fontSize = fontSize ? fontSize : "36px";
 
       return _react2.default.createElement(
         'svg',
@@ -54,7 +60,7 @@ var Badge = function (_Component) {
         _react2.default.createElement('circle', { cx: '200', cy: '200', r: '42', fill: fill }),
         _react2.default.createElement(
           'text',
-          { x: '170', y: '215', fontSize: '50px', fontWeight: 200, fill: '#fff' },
+          { x: x, y: y, fontSize: fontSize, fontWeight: 200, fill: '#fff' },
           initials
         )
       );

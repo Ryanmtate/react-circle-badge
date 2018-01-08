@@ -1,0 +1,37 @@
+{
+  "name": "react-circle-badge",
+  "version": "0.0.1",
+  "description": "React SVG Circle Badge with Initials",
+  "main": "./src/index.js",
+  "scripts": {
+    "build:src": "npx babel ./src/ --out-dir ./dist/ --plugins transform-react-jsx",
+    "build:ui": "npx webpack --config webpack.config.js",
+    "dev": "npx webpack-dev-server --public --hot --inline --host 0.0.0.0"
+  },
+  "keywords": [
+    "React",
+    "SVG",
+    "Circle",
+    "Badge",
+    "Initials"
+  ],
+  "author": "Ryan M Tate",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-env": "^2.4.1",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-inline-import": "^2.0.6",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "loader-utils": "^1.1.0",
+    "webpack": "^3.8.1"
+  }
+}

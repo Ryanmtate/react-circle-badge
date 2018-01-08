@@ -18,3 +18,6 @@ ReactDOM.render(
 )
 
 ```
+
+
+![preview](https://raw.githubusercontent.com/Ryanmtate/react-circle-badge/master/preview.png)

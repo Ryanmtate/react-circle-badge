@@ -1,7 +1,14 @@
+# react-circle-badge
+React SVG Circle Badge with Initials
+
+
+npm i react-circle-badge -S
+
+```js
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Badge from './Badge'
+import Badge from 'react-circle-badge'
 
 ReactDOM.render(
   <div>
@@ -9,3 +16,5 @@ ReactDOM.render(
   </div>,
   document.getElementById('app')
 )
+
+```

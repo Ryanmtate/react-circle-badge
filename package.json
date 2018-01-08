@@ -2,7 +2,7 @@
   "name": "react-circle-badge",
   "version": "0.0.1",
   "description": "React SVG Circle Badge with Initials",
-  "main": "./src/index.js",
+  "main": "./dist/Badge.js",
   "scripts": {
     "build:src": "npx babel ./src/ --out-dir ./dist/ --plugins transform-react-jsx",
     "build:ui": "npx webpack --config webpack.config.js",
